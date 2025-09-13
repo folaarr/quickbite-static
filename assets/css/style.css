@@ -1,0 +1,257 @@
+body {
+    background-color: #318645;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    background-image: url("https://res.cloudinary.com/foladevelops/image/upload/v1757614836/Generated_Image_September_08_2025_-_1_20PM_q3fpld.png");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    color: #f7f4f1;
+}
+
+img#logo {
+    height: 17vw;
+    margin-left: 2vw;
+}
+
+div#top-holder {
+    padding-top: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg#menu-svg {
+    color: #f7f4f1;
+    height: 5vw;
+    width: 5vw;
+    padding: 2vw 0.5vw;
+}
+
+div#menu-holder {
+    height: 17vw;
+    display: flex;
+    align-items: center;
+    margin-right: 6.5vw;
+}
+
+button#menu-button {
+    background-color: transparent;
+    border: 0.2vw solid #f7f4f1;
+    border-radius: 12px;
+}
+
+div#links-holder {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.link-holder {
+    height: 8vw;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+a.nav-link {
+    color: #f7f4f1;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+div#carousel-holder {
+    margin: 0vw 13vw;
+    margin-bottom: 8vw;
+    margin-top: 6vw;
+}
+
+img.carousel-image {
+    width: 60vw;
+    height: 60vw;
+    object-fit: cover;
+    object-position: center;
+    margin: 0vw 4vw;
+    border-radius: 28px;
+    border: 3vw solid rgb(100, 200, 150, 0.8);
+}
+
+div#grandpa-actions {
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+}
+
+div#mr-actions {
+    display: flex;
+    gap: 4vw;
+}
+
+a.action-button {
+    background: transparent;
+    border-radius: 10px;
+    border: 0.2vw solid #f7f4f1;
+    width: 39.6vw;
+    height: 11.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f4f1;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a#menu-button {
+    background-color: #a9cf46;
+    border: none;
+    width: 40vw;
+    height: 11.9vw;
+    color: #252525;
+}
+
+h2 {
+    font-size: 1.618rem;
+    text-align: center;
+}
+
+div.section {
+    margin: 0vw 4vw;
+    margin-bottom: 17vw;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h2#about-title {
+    margin-bottom: 2.5vw;
+}
+
+p#about-content {
+    margin-top: 0;
+}
+
+div.review-holder {
+    border-radius: 16px;
+    border: 0.6vw solid #f7f4f1;
+    min-height: 24vw;
+    width: 70.8vw;
+    background: rgba(160,160,160, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw 6vw;
+    margin: 0vw 4vw;
+}
+
+div#reviewers-holder {
+    margin: 0vw 8vw;
+    /* margin-bottom: 14vw; */
+    width: 76vw;
+}
+
+h2#reviews-title {
+    margin-bottom: 12vw;
+}
+
+div#reviews-holder {
+    margin-bottom: 14vw;
+}
+
+div.faq-holder {
+    border-radius: 14px;
+    border: 0.2vw solid #f7f4f1;
+    padding: 1.5vw 6vw;
+    margin-bottom: 2vw;
+}
+
+div#faq-house {
+    margin-bottom: 14vw;
+}
+
+svg.contact-icon {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+a {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+a#chat-us {
+    color: #a9cf46;
+    margin-bottom: 6vw;
+}
+
+svg.chat-us {
+    color: #f7f4f1;
+}
+
+div#open-chat {
+    display: flex;
+    justify-content: center;
+}
+
+img#menu {
+    width: 100vw;
+    /* border-top: 0.2vw solid #f7f4f1; */
+    /* border-bottom: 0.2vw solid #f7f4f1; */
+    padding-top: 6vw;
+    padding-bottom: 4vw;
+}
+
+div#menu-action {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 17vw;
+}
+
+a#order-now {
+    background-color: #a9cf46;
+    border: none;
+    width: 40vw;
+    height: 11.9vw;
+    color: #252525;
+}
+
+svg.action-icon {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+p.action-text {
+    white-space: pre;
+}
+
+div.map {
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vw;
+}
+
+iframe.location {
+    border-radius: 24px;
+    width: 80vw;
+    height: 70vw;
+}
+
+div#g-maps {
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+}
+
+a#map-button {
+    background-color: #a9cf46;
+    border: none;
+    width: 66vw;
+    height: 11.9vw;
+    color: #252525;
+}
