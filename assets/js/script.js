@@ -15,24 +15,24 @@ $(document).ready(function(){
 // Reviews Slick Carousel Control
 $(document).ready(function(){
     $("div#reviews-carousel").slick({
-        autoplay: false,
+        autoplay: true,
         mobileFirst: true,
         autoplaySpeed: 4500,
         speed: 900,
     });
 
-    $(window).on('scroll', function() {
-    let carouselTop = $('div#reviews-carousel').offset().top;
-    let carouselHeight = $('div#reviews-carousel').outerHeight();
-    let windowBottom = $(window).scrollTop() + $(window).height();
+  //   $(window).on('scroll', function() {
+  //   let carouselTop = $('div#reviews-carousel').offset().top;
+  //   let carouselHeight = $('div#reviews-carousel').outerHeight();
+  //   let windowBottom = $(window).scrollTop() + $(window).height();
 
-    // Check if carousel is in view
-    if (windowBottom > carouselTop + carouselHeight / 2) {
-      $('#reviews-carousel').slick('slickPlay');
-    } else {
-      $('#reviews-carousel').slick('slickPause');
-    }
-  });
+  //   // Check if carousel is in view
+  //   if (windowBottom > carouselTop + carouselHeight / 2) {
+  //     $('#reviews-carousel').slick('slickPlay');
+  //   } else {
+  //     $('#reviews-carousel').slick('slickPause');
+  //   }
+  // });
 });
 
 // Highlight current page to the user when the Nav Bar is opened
