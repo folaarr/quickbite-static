@@ -120,15 +120,15 @@ div.super {
     justify-content: center;
 }
 
-div.head-hold {
+/* div.head-hold {
     width: 48vw;
-}
+} */
 
 h1.site-head {
     text-align: center;
     font-size: 1.518rem;
     font-weight: 400;
-    color: #a9cf46;
+    /* color: #a9cf46; */
     font-family: "Playfair Display", serif;
 }
 
