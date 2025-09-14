@@ -66,7 +66,7 @@ a.nav-link {
 div#carousel-holder {
     margin: 0vw 13vw;
     margin-bottom: 8vw;
-    margin-top: 6vw;
+    /* margin-top: 6vw; */
 }
 
 div.image-holder {
@@ -89,7 +89,7 @@ img.carousel-image {
     object-position: center;
     width: 100%;
     height: 100%;
-    filter: brightness(0.5);
+    /* filter: brightness(0.5); */
 }
 
 div.header-holder {
@@ -112,6 +112,29 @@ h1.site-header {
     font-weight: 900;
     color: #eb8640;
     font-family: "Playfair Display", serif;
+}
+
+div.super {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+div.head-hold {
+    width: 48vw;
+}
+
+h1.site-head {
+    text-align: center;
+    font-size: 1.518rem;
+    font-weight: 400;
+    color: #a9cf46;
+    font-family: "Playfair Display", serif;
+}
+
+svg.f-n {
+    width: 1.068rem;
+    height: 1.068rem;
 }
 
 div#grandpa-actions {
