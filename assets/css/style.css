@@ -302,8 +302,12 @@ p#copyright {
     color: #f7f4f1;
 }
 
-div#media {
+div#gallery-holder {
     margin-top: 6vw;
+    margin-bottom: 8vw;
+}
+
+div#media {
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
     grid-auto-rows: 30vw;
