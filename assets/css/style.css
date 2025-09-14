@@ -301,3 +301,18 @@ p#copyright {
     font-size: 0.768rem;
     color: #f7f4f1;
 }
+
+div#media {
+    margin-top: 6vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-auto-rows: 30vw;
+    gap: 1vw;
+}
+
+img.gallery-image {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
