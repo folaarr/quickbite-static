@@ -282,6 +282,7 @@ div#g-maps {
     width: 92vw;
     display: flex;
     justify-content: center;
+    /* margin-bottom: 17vw; */
 }
 
 a#map-button {
@@ -290,4 +291,13 @@ a#map-button {
     width: 66vw;
     height: 11.9vw;
     color: #252525;
+}
+
+div.copy {
+    margin-bottom: 0;
+}
+
+p#copyright {
+    font-size: 0.768rem;
+    color: #f7f4f1;
 }
