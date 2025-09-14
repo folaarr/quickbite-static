@@ -108,6 +108,9 @@ div.header-holder {
 h1.site-header {
     text-align: center;
     width: 48vw;
+    font-size: 1.618rem;
+    font-weight: 600;
+    color: #eb8640;
 }
 
 div#grandpa-actions {
