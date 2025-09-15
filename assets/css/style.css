@@ -905,3 +905,9 @@ img#menu, div.super {
         margin-bottom: 4.7vw;
     }
 }
+
+@media (min-width: 1201px) {
+    svg#menu-svg {
+        padding: 1.36vw 0.36vw;
+    }
+}
