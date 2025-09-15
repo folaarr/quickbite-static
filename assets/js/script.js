@@ -43,3 +43,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const link = document.getElementById(pageTitle + "-link")
   link.style.color = "#252525";
 });
+
+// Show navigation bar only when scrolling up
+var lastScroll = 0; // keep this outside
+var currentScroll = 0;
+
+window.addEventListener("scroll", function () {
+    currentScroll = window.scrollY || document.documentElement.scrollTop;
+
+    if (currentScroll < 0) { 
+        currentScroll = 0; // normalize negative values
+    }
+
+    if (currentScroll > lastScroll + 4) {
+        // scrolling down
+        $("div#links-holder").stop(true, false).slideUp(333);
+        setTimeout(function() {
+          $("div#top-holder").stop(true, false).slideUp(283);
+        }, 383);
+    } else if (currentScroll < lastScroll - 4) {
+        // scrolling up
+        $("div#top-holder").stop(true, false).slideDown(333);
+    }
+
+    lastScroll = currentScroll; // update AFTER comparisons
+});

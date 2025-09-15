@@ -18,6 +18,11 @@ div#top-holder {
     padding-top: 3.5vw;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    background-color: #318645;
 }
 
 svg#menu-svg {
@@ -45,6 +50,12 @@ div#links-holder {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    top: 20.5vw;
+    background-color: #318645;
+    padding-bottom: 4vw;
+    /* border-bottom: 0.1vw solid #f7f4f1; */
+    z-index: 1;
 }
 
 div.link-holder {
@@ -343,4 +354,12 @@ img.gallery-image {
     height: 30vw;
     object-fit: cover;
     object-position: center;
+}
+
+div#gallery-holder {
+    margin-top: 23vw;
+}
+
+img#menu, div.super {
+    margin-top: 17vw;
 }
