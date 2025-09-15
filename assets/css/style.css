@@ -104,6 +104,14 @@ img.carousel-image {
     /* filter: brightness(0.5); */
 }
 
+div#quickbite-carousel {
+  visibility: hidden;
+}
+
+div#quickbite-carousel.slick-initialized {
+  visibility: visible;
+}
+
 div.header-holder {
     position: absolute;   /* overlays on top of the image */
     top: 50%;
@@ -209,7 +217,6 @@ p#about-content {
 div.review-holder {
     border-radius: 16px;
     border: 0.6vw solid #f7f4f1;
-    min-height: 24vw;
     width: 70.8vw;
     background: rgba(160,160,160, 0.1);
     display: flex;
@@ -374,26 +381,454 @@ img#menu, div.super {
 
     a#order-button {
         width: 29.6vw;
-        height: 8.625vw;
+        height: 8.525vw;
     }
     
     div.image-bg {
         width: 45vw;
         height: 45vw;
+        border: 2.25vw solid rgba(100, 200, 150, 0.8);
     }
 
     div#carousel-holder {
         margin: 0vw 20.5vw;
         margin-bottom: 6vw;
     }
+
+    img#logo {
+        height: 12.75vw;
+        margin-left: 1.5vw;
+    }
+
+    div#menu-holder {
+        height: 12.75vw;
+        margin-right: 4.875vw;
+    }
+
+    svg#menu-svg {
+        height: 3.75vw;
+        width: 3.75vw;
+        padding: 2vw 0.5vw;
+    }
+
+    div#top-holder {
+        padding-top: 2.625vw;
+    }
+
+    div#links-holder {
+        top: 15.375vw;
+        padding-bottom: 3vw;
+    }
+
+    div.section {
+        margin: 0vw 3vw;
+        margin-bottom: 7.5vw;
+    }
+
+    div#grandpa-actions {
+        width: 94vw;
+    }
+    
+    div.review-holder {
+        border: 0.6vw solid #f7f4f1;
+        width: 53.1vw;
+        padding: 1.5vw 6vw;
+        margin: 0vw 4vw;
+    }
+
+    h2#reviews-title {
+        margin-bottom: 9vw;
+    }
+
+    div.faq-holder {
+        width: 51vw;
+    }
+
+    div#faq-house {
+        width: 94vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 6.18vw;
+    }
+
+    p#about-content {
+        width: 58vw;
+    }
+
+    div#about-holder {
+        width: 94vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#reviews-holder {
+        margin-bottom: 7.5vw;
+    }
+
+    div.map {
+        width: 94vw;
+    }
+
+    iframe.location {
+        width: 60vw;
+        height: 52.5vw;
+    }
+
+    a#map-button {
+        width: 49.5vw;
+        height: 8.925vw;
+    }  
+    
+    div#reviews-holder {
+        width: 94vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#reviewers-holder {
+        width: 57vw;
+    }
+
+    div#mr-actions {
+        gap: 3vw;
+    }
+
+    p.address {
+        width: 63vw;
+    }
+
+    div.contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a#chat-us {
+        margin-top: 2vw;
+    }
+
+    div.link-holder {    
+        height: 6vw;
+        width: 21vw;
+    }
+
+    a#order-now {
+        width: 30vw;
+        height: 8.925vw;
+    }
+
+    img#menu {
+        width: 82vw;
+        margin-top: 12.75vw;
+    }
+
+    div#menu-cover {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    img.gallery-image {
+        width: 22.5vw;
+        height: 22.5vw;
+    }
+
+    div#media {
+        grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
+        grid-auto-rows: 22.5vw;
+        gap: 1.33vw;
+    }
+
+    div#menu-action {
+        padding-bottom: 7.5vw;
+    }
 }
 
 /* Laptop */
 @media (min-width: 769px) {
+    a#menu-button {
+        width: 25vw;
+        height: 6.6125vw;
+    }
 
+    a#order-button {
+        width: 24.6vw;
+        height: 6.2125vw;
+    }
+    
+    div.image-bg {
+        width: 34.5vw;
+        height: 34.5vw;
+        border: 1.725vw solid rgba(100, 200, 150, 0.8);
+    }
+
+    div#carousel-holder {
+        margin: 0vw 27.025vw;
+        margin-bottom: 4.6vw;
+    }
+
+    img#logo {
+        height: 9.775vw;
+        margin-left: 1.15vw;
+    }
+
+    div#menu-holder {
+        height: 9.775vw;
+        margin-right: 3.7375vw;
+    }
+
+    svg#menu-svg {
+        height: 2.875vw;
+        width: 2.875vw;
+        padding: 2vw 0.5vw;
+    }
+
+    div#top-holder {
+        padding-top: 2.0125vw;
+    }
+
+    div#links-holder {
+        top: 11.7875vw;
+        padding-bottom: 2.3vw;
+    }
+
+    div.section {
+        margin: 0vw 2.3vw;
+        margin-bottom: 4.5vw;
+    }
+
+    div#grandpa-actions {
+        width: 95.4vw;
+    }
+
+    h2#reviews-title {
+        margin-bottom: 4.5vw;
+    }
+
+    div.faq-holder {
+        width: 46vw;
+    }
+
+    div#faq-house {
+        width: 94vw;
+        margin-bottom: 5.1vw;
+    }
+
+    p#about-content {
+        width: 49vw;
+    }
+
+    div#about-holder {
+        width: 95.4vw;
+    }
+
+    div#reviews-holder {
+        margin-bottom: 7.5vw;
+    }
+
+    div.map {
+        width: 94vw;
+    }
+
+    iframe.location {
+        width: 46vw;
+        height: 40.25vw;
+    }
+
+    a#map-button {
+        width: 37.95vw;
+        height: 6.6125vw;
+    }  
+    
+    div#reviews-holder {
+        width: 94vw;
+    }
+
+    div#reviewers-holder {
+        width: 57vw;
+    }
+
+    div#mr-actions {
+        gap: 2.3vw;
+    }
+
+    p.address {
+        width: 52vw;
+    }
+
+    div.link-holder {    
+        height: 4.6vw;
+        width: 16.1vw;
+    }
+
+    a#order-now {
+        width: 25vw;
+        height: 6.6125vw;
+    }
+
+    img#menu {
+        width: 71vw;
+        margin-top: 11.7875vw;
+    }
+
+    img.gallery-image {
+        width: 18.2vw;
+        height: 18.2vw;
+    }
+
+    div#media {
+        grid-template-columns: 18.2vw 18.2vw 18.2vw 18.2vw 18.2vw;
+        grid-auto-rows: 18.2vw;
+        gap: 1.1vw;
+    }
+
+    div#menu-action {
+        padding-bottom: 4.5vw;
+    }
 }
 
 /* Desktop */
 @media (min-width: 1025px) {
+    a#menu-button {
+        width: 18vw;
+        height: 4.761vw;
+    }
 
+    a#order-button {
+        width: 17.6vw;
+        height: 4.361vw;
+    }
+    
+    div.image-bg {
+        width: 24.84vw;
+        height: 24.84vw;
+        border: 1.242vw solid rgba(100, 200, 150, 0.8);
+    }
+
+    div#carousel-holder {
+        margin: 0vw 32.338vw;
+        margin-bottom: 4.6vw;
+    }
+
+    img#logo {
+        height: 9.775vw;
+        margin-left: 1.15vw;
+    }
+
+    div#menu-holder {
+        height: 9.775vw;
+        margin-right: 3.7375vw;
+    }
+
+    svg#menu-svg {
+        height: 2.875vw;
+        width: 2.875vw;
+        padding: 2vw 0.5vw;
+    }
+
+    div#top-holder {
+        padding-top: 2.0125vw;
+    }
+
+    div#links-holder {
+        top: 11.7875vw;
+        padding-bottom: 2.3vw;
+    }
+
+    div.section {
+        margin: 0vw 1.656vw;
+        margin-bottom: 4.5vw; 38.636
+    }
+
+    div#grandpa-actions {
+        width: 95.4vw;
+    }
+
+    h2#reviews-title {
+        margin-bottom: 4.5vw;
+    }
+
+    div.faq-holder {
+        width: 46vw;
+    }
+
+    div#faq-house {
+        width: 94vw;
+        margin-bottom: 5.1vw;
+    }
+
+    p#about-content {
+        width: 49vw;
+    }
+
+    div#about-holder {
+        width: 95.4vw;
+    }
+
+    div#reviews-holder {
+        margin-bottom: 7.5vw;
+    }
+
+    div.map {
+        width: 94vw;
+    }
+
+    iframe.location {
+        width: 46vw;
+        height: 40.25vw;
+    }
+
+    a#map-button {
+        width: 37.95vw;
+        height: 6.6125vw;
+    }  
+    
+    div#reviews-holder {
+        width: 94vw;
+    }
+
+    div#reviewers-holder {
+        width: 57vw;
+    }
+
+    div#mr-actions {
+        gap: 2.3vw;
+    }
+
+    p.address {
+        width: 52vw;
+    }
+
+    div.link-holder {    
+        height: 4.6vw;
+        width: 16.1vw;
+    }
+
+    a#order-now {
+        width: 18vw;
+        height: 4.761vw;
+    }
+
+    img#menu {
+        width: 71vw;
+        margin-top: 11.7875vw;
+    }
+
+    img.gallery-image {
+        width: 18.2vw;
+        height: 18.2vw;
+    }
+
+    div#media {
+        grid-template-columns: 18.2vw 18.2vw 18.2vw 18.2vw 18.2vw;
+        grid-auto-rows: 18.2vw;
+        gap: 1.1vw;
+    }
+
+    div#menu-action {
+        padding-bottom: 4.5vw;
+    }
 }
