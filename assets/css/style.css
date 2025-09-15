@@ -367,7 +367,25 @@ img#menu, div.super {
 
 /* Tablet */
 @media (min-width: 481px) {
+    a#menu-button {
+        width: 30vw;
+        height: 8.925vw;
+    }
 
+    a#order-button {
+        width: 29.6vw;
+        height: 8.625vw;
+    }
+    
+    div.image-bg {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    div#carousel-holder {
+        margin: 0vw 20.5vw;
+        margin-bottom: 6vw;
+    }
 }
 
 /* Laptop */
