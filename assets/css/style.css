@@ -372,7 +372,7 @@ img#menu, div.super {
     margin-top: 17vw;
 }
 
-@keyframes rotate {
+@keyframes clockwise {
     0% {
         transform: rotate(0deg);
     }
@@ -382,12 +382,29 @@ img#menu, div.super {
     }
 }
 
-svg.fried-egg, svg.leaf, svg.lightning {
-    animation-name: rotate;
+svg.fried-egg.clockwise, svg.leaf.clockwise, svg.lightning.clockwise {
+    animation-name: clockwise;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 8s;
 }
+
+/* @keyframes antiClockWise {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+svg.fried-egg.anti-clockwise, svg.leaf.anti-clockwise, svg.lightning.anti-clockwise {
+    animation-name: antiClockWise;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+} */
 
 /* Tablet */
 @media (min-width: 481px) {

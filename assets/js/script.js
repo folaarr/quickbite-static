@@ -61,9 +61,17 @@ window.addEventListener("scroll", function () {
         setTimeout(function() {
           $("div#top-holder").stop(true, false).slideUp(283);
         }, 383);
+        // document.querySelectorAll("svg.f-n").forEach(function(svg) {
+        //   svg.classList.remove("anti-clockwise");
+        //   svg.classList.add("clockwise");
+        // });
     } else if (currentScroll < lastScroll - 4) {
         // scrolling up
         $("div#top-holder").stop(true, false).slideDown(333);
+        // document.querySelectorAll("svg.f-n").forEach(function(svg) {
+        //   svg.classList.remove("clockwise");
+        //   svg.classList.add("anti-clockwise");
+        // });
     }
 
     lastScroll = currentScroll; // update AFTER comparisons
