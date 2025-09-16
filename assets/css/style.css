@@ -372,6 +372,37 @@ img#menu, div.super {
     margin-top: 17vw;
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+svg.fried-egg {
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4.5s;
+}
+
+svg.leaf {
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+svg.lightning {
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5.6s;
+}
+
 /* Tablet */
 @media (min-width: 481px) {
     a#menu-button {
@@ -906,6 +937,7 @@ img#menu, div.super {
     }
 }
 
+/* Large Screen */
 @media (min-width: 1201px) {
     svg#menu-svg {
         padding: 1.36vw 0.36vw;
