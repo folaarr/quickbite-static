@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://quickbitekitchen.onrender.com/sitemap.xml
