@@ -382,25 +382,11 @@ img#menu, div.super {
     }
 }
 
-svg.fried-egg {
-    animation-name: rotate;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 4.5s;
-}
-
-svg.leaf {
+svg.fried-egg, svg.leaf, svg.lightning {
     animation-name: rotate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 8s;
-}
-
-svg.lightning {
-    animation-name: rotate;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 5.6s;
 }
 
 /* Tablet */
