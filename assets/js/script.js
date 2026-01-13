@@ -77,4 +77,6 @@ window.addEventListener("scroll", function () {
     lastScroll = currentScroll; // update AFTER comparisons
 });
 
- 
+document.querySelectorAll('span.year').forEach(element => {
+  element.textContent = new Date().getFullYear().toString();
+})
