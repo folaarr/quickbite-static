@@ -76,3 +76,5 @@ window.addEventListener("scroll", function () {
 
     lastScroll = currentScroll; // update AFTER comparisons
 });
+
+ 
