@@ -948,3 +948,9 @@ svg.fried-egg.anti-clockwise, svg.leaf.anti-clockwise, svg.lightning.anti-clockw
         padding: 1.36vw 0.36vw;
     }
 }
+
+svg#menu-svg {
+    height: 1.17rem;
+    width: 1.17rem;
+    padding: 0.4687rem 0.1171rem;
+}
